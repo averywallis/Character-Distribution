@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Avery Wallis
+Credit: none so far
 
 Assignment:
 
