@@ -37,7 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-strin= str(input("Please enter a string of text (the bigger the better): "))
+string= str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "The rain in Spain stays mainly in the plain." is:')
 strin=string.ascii_lowercase
 print(strin)
