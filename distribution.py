@@ -38,7 +38,7 @@ Notice about this example:
 """
 import string
 string1= str(input("Please enter a string of text (the bigger the better): "))
-strin=string.ascii_lowercase(string1)
-print('The distribution of characters in "'+string+ '" is:')
-print(strin)
 
+print('The distribution of characters in "'+string+ '" is:')
+thing=string1.sort()
+print(thing)
