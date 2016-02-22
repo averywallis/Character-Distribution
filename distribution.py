@@ -41,5 +41,5 @@ string1= str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "'+string1+ '" is:')
 
 thing=list(string1)
-thing1=string1.sort()
+thing1=thing.sort()
 print(thing1)
