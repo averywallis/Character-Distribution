@@ -39,7 +39,7 @@ Notice about this example:
 import string
 string1= str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "'+string1+ '" is:')
-
+a=len(string1)
 thing=list(string1)
 thing1=thing.sort()
 print(thing1)
