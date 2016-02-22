@@ -68,7 +68,7 @@ y=string1.count('y')
 z=string1.count('z')
 list1=[]
 list2=[]
-list1=list1.append([a])
-list1=list1.sort()
+list2.append([a])
+
 print(list2)
 
