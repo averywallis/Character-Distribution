@@ -38,7 +38,8 @@ Notice about this example:
 """
 import string
 string1= str(input("Please enter a string of text (the bigger the better): "))
-
 print('The distribution of characters in "'+string+ '" is:')
-thing=string1.sort()
-print(thing)
+
+thing=list(string1)
+thing1=string1.sort()
+print(thing1)
