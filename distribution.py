@@ -69,6 +69,6 @@ z=string1.count('z')
 list1=[]
 list2=[]
 list2.append(a)
-
+list2.append(b)
 print(list2)
 
