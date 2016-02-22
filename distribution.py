@@ -37,8 +37,8 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-string= str(input("Please enter a string of text (the bigger the better): "))
-strin=string.ascii_lowercase
+string1= str(input("Please enter a string of text (the bigger the better): "))
+strin=string.ascii_lowercase(string1)
 print('The distribution of characters in "'+string+ '" is:')
 print(strin)
 
