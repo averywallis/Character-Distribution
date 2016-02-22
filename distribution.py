@@ -40,7 +40,7 @@ Notice about this example:
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
 print('The distribution of characters in "'+string1+ '" is:')
-a=list(string1.count('a'))
+a=(string1.count('a'))
 b=(string1.count('b'))
 c=string1.count('c')
 d=string1.count('d')
