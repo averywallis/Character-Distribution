@@ -79,11 +79,13 @@ listnum=[]
 
 for c in alph:
     r = string.count(c)
-    listnum.append(r)
+    
     if not r==0:
         t=(r*c)
         result.append(t)
+        listnum.append(r)
 listnum.sort(reverse=True)
+
 l=len(listnum)
 print(l)
 print(listnum)     
