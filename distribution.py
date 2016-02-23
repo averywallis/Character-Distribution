@@ -40,6 +40,7 @@ Notice about this example:
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
 print('The distribution of characters in "'+string1+ '" is:')
+"""
 a=(string1.count('a'))
 b=(string1.count('b'))
 c=string1.count('c')
@@ -67,8 +68,12 @@ x=string1.count('x')
 y=string1.count('y')
 z=string1.count('z')
 list1=[]
-
 list1.append([a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z])
 sorted(list1,reverse=True)
 print(list1)
+"""
 
+alph='abcdefghijklmnopqrstuvwxyz'
+result=[]
+
+print(result)
