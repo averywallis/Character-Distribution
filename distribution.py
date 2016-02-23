@@ -79,7 +79,6 @@ listnum=[]
 
 for c in alph:
     r = string.count(c)
-    
     if not r==0:
         t=(r*c)
         result.append(t)
