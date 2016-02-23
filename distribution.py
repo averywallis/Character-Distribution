@@ -85,5 +85,5 @@ for c in alph:
         result.append(t)
 
 listnum.sort(reverse=True)
-     
+print(listnum)     
 print(result)
