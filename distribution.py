@@ -84,6 +84,6 @@ for c in alph:
         t=(r*c)
         result.append(t)
 
-
+listnum.sort(reverse=True)
      
 print(result)
