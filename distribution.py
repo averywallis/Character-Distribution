@@ -69,5 +69,5 @@ z=string1.count('z')
 list1=[]
 
 list1.append([a,b])
-print(list2)
+print(list1)
 
