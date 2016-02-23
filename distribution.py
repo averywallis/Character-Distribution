@@ -76,4 +76,9 @@ print(list1)
 alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
 
-print(result)
+for c in alph:
+    r = string.count(c)
+    if not r==0:
+        t=(r*c)
+        results.append(t)
+        
