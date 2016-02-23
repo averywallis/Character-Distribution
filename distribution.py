@@ -84,10 +84,10 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 listnum.sort(reverse=True)
-l=len(listnum)
+l=len(result)
 
 for x in range(1,l+1):
-    print(listnum[-x],end="")
+    print(result[-x],end="")
 print()
 print(l)
 print(listnum)     
