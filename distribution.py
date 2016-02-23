@@ -66,7 +66,7 @@ w=string1.count('w')
 x=string1.count('x')
 y=string1.count('y')
 z=string1.count('z')
-list1=[]
+list1=
 
 list1.append(a,b)
 print(list1)
