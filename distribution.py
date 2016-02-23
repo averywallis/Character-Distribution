@@ -78,9 +78,11 @@ result=[]
 
 for c in alph:
     r = string.count(c)
+    r.sort(reverse=True) 
     if not r==0:
         t=(r*c)
         result.append(t)
 
-result.sort(reverse=True)        
+
+     
 print(result)
