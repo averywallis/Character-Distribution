@@ -84,10 +84,7 @@ for c in alph:
         result.append(t)
         listnum.append(r)
         
-thing=list(result)
-thing1=thing.split(' ')
-m=result.split(' ')
-print()
+
 
 listnum.sort(reverse=True)
 l=len(result)
