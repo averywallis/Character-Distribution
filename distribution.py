@@ -68,6 +68,6 @@ y=string1.count('y')
 z=string1.count('z')
 list1=[]
 
-list2.append(a,b)
+list1.append(a,b)
 print(list2)
 
