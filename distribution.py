@@ -83,7 +83,8 @@ for c in alph:
     if not r==0:
         t=(r*c)
         result.append(t)
-
 listnum.sort(reverse=True)
+l=len(listnum)
+
 print(listnum)     
 print(result)
