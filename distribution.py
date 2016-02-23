@@ -86,7 +86,6 @@ for c in alph:
 listnum.sort(reverse=True)
 l=len(result)
 thing=list(result)
-thing1=thing.split(' ')
-m=result.split(' ')
+
 print(listnum)     
 print(result)
