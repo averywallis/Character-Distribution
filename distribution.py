@@ -83,9 +83,15 @@ for c in alph:
         t=(r*c)
         result.append(t)
         listnum.append(r)
+        
+thing=list(result)
+thing1=thing.split(' ')
+m=result.split(' ')  
+
 listnum.sort(reverse=True)
 l=len(result)
 thing=list(result)
-print(thing)
+thing1=thing.split(' ')
+m=result.split(' ')
 print(listnum)     
 print(result)
