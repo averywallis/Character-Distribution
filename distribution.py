@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Avery Wallis
-Credit: Ethan
+Credit: Ethan, Payton, Doniel
 
 Assignment:
 
@@ -81,5 +81,6 @@ for c in alph:
     if not r==0:
         t=(r*c)
         result.append(t)
-        
+
+result.sort(reverse=True)        
 print(result)
