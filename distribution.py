@@ -89,6 +89,5 @@ l=len(result)
 for x in range(1,l+1):
     print(result[-x],end="")
 print()
-print(l)
 print(listnum)     
 print(result)
