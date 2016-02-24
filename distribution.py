@@ -61,7 +61,7 @@ l=len(result)
 for b in range(l,l+1):
     m=len(result[-l])
     thing.append(m)
-
+print(m)
 def bsort(seq, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
