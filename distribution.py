@@ -79,7 +79,7 @@ def bsort(seq, cmp):
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
 bsort(result, compare)
-
+print(bsort)
 """
 print(listnum)     
 print(result)
