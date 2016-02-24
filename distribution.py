@@ -59,9 +59,10 @@ for c in alph:
 
 l=len(result)
 for b in range(1,l+1):
-    m=len(result[-l])
+    m=len(result[-b])
     thing.append(m)
 print(m)
+
 def bsort(seq, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
