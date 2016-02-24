@@ -40,8 +40,8 @@ def compare(a, b):
     """
     compare - generic comparison function for testing two elements.
     """
-    while a > b:
-        return a
+    while a < b:
+        return b > a
     return b > a
 
 string= str(input("Please enter a string of text (the bigger the better): "))
@@ -75,7 +75,7 @@ def bsort(result, listnum):
     sorted = False  # assume the seq is not sorted to start with
     while not sorted:
         sorted = True   # assume it's already sorted correctly
-        for index, value in enumerate(result): # for every element in seq
+        for index, value in enumerate(listnum): # for every element in seq
             if index > 0:                   # past the first..
                 if not listnum(result[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
