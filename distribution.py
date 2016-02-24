@@ -89,5 +89,25 @@ for c in alph:
 listnum.sort(reverse=True)
 l=len(result)
 
+def bsort(result, listnum):
+    """
+    bsort - simple sorting algorithm that uses any comparison function
+    seq - a list to be sorted
+    cmp - a function for comparing two elements of seq
+    """
+    sorted = False  # assume the seq is not sorted to start with
+    while not sorted:
+        sorted = True   # assume it's already sorted correctly
+        for index, value in enumerate(result): # for every element in seq
+            if index > 0:                   # past the first..
+                if not cmp(result[index-1], value):  # if this element is out of order
+                    sorted = False          # then the list is not sorted yet
+                    result[index-1], result[index] = result[index], result[index-1] # and swap it
+
+
+tosort = [4, 10, 3, -1000, 30]
+bsort(tosort, compare)
+print(tosort)
+
 print(listnum)     
 print(result)
