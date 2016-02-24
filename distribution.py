@@ -66,7 +66,7 @@ listnum.sort(reverse=True)
 l=len(result)
 
 
-def bsort(result, listnum):
+def bsort(seq, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
     seq - a list to be sorted
@@ -75,11 +75,11 @@ def bsort(result, listnum):
     sorted = False  # assume the seq is not sorted to start with
     while not sorted:
         sorted = True   # assume it's already sorted correctly
-        for index, value in enumerate(result): # for every element in seq
+        for index, value in enumerate(seq): # for every element in seq
             if index > 0:                   # past the first..
-                if not listnum(result[index-1], value):  # if this element is out of order
+                if not cmp(seq[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
-                    result[index-1], result[index] = result[index], result[index-1] # and swap it
+                    seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
 
 bsort(result, compare)
