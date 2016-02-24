@@ -59,7 +59,7 @@ for c in alph:
 
 l=len(result)
 for b in range(l,l+1):
-    m=len(result(-l))
+    m=len(result[-l])
     print(m)
 
 def bsort(seq, cmp):
