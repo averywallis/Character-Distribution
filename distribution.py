@@ -57,7 +57,7 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 
-zip(result,listnum)
+results=zip(result,listnum)
 def bsort(seq, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
@@ -73,8 +73,8 @@ def bsort(seq, cmp):
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
-bsort(result, compare)
-print(result)
+bsort(results, compare)
+print(results)
 """
 print(listnum)     
 print(result)
