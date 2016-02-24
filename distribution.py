@@ -110,7 +110,7 @@ def bsort(result, listnum):
                     result[index-1], result[index] = result[index], result[index-1] # and swap it
 
 
-tosort = [4, 10, 3, -1000, 30]
+tosort = results
 bsort(tosort, compare)
 print(tosort)
 
