@@ -80,9 +80,9 @@ def bsort(result, listnum):
                     result[index-1], result[index] = result[index], result[index-1] # and swap it
 
 
-tosort = result
-bsort(tosort, compare)
-print(tosort)
-
+bsort(result, compare)
+print(result)
+"""
 print(listnum)     
 print(result)
+"""
