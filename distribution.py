@@ -40,13 +40,11 @@ def compare(a, b):
     """
     compare - generic comparison function for testing two elements.
     """
-    
-    return b = a-1
+    return b > a
 
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
 print('The distribution of characters in "'+string1+ '" is:')
-
 
 alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
@@ -80,9 +78,8 @@ def bsort(seq, cmp):
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
-
 bsort(result, compare)
-print(result)
+
 """
 print(listnum)     
 print(result)
