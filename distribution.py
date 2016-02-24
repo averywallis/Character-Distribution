@@ -36,42 +36,16 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+def compare(a, b):
+    """
+    compare - generic comparison function for testing two elements.
+    """
+    return b > a
 
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
 print('The distribution of characters in "'+string1+ '" is:')
-"""
-a=(string1.count('a'))
-b=(string1.count('b'))
-c=string1.count('c')
-d=string1.count('d')
-e=string1.count('e')
-f=string1.count('f')
-g=string1.count('g')
-h=string1.count('h')
-i=string1.count('i')
-j=string1.count('j')
-k=string1.count('k')
-l=string1.count('l')
-m=string1.count('m')
-n=string1.count('n')
-o=string1.count('o')
-p=string1.count('p')
-q=string1.count('q')
-r=string1.count('r')
-s=string1.count('s')
-t=string1.count('t')
-u=string1.count('u')
-v=string1.count('v')
-w=string1.count('w')
-x=string1.count('x')
-y=string1.count('y')
-z=string1.count('z')
-list1=[]
-list1.append([a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z])
-sorted(list1,reverse=True)
-print(list1)
-"""
+
 
 alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
@@ -89,11 +63,7 @@ for c in alph:
 listnum.sort(reverse=True)
 l=len(result)
 
-def compare(a, b):
-    """
-    compare - generic comparison function for testing two elements.
-    """
-    return b > a
+
 def bsort(result, listnum):
     """
     bsort - simple sorting algorithm that uses any comparison function
