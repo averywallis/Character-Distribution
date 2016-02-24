@@ -40,7 +40,7 @@ def compare(a, b):
     """
     compare - generic comparison function for testing two elements.
     """
-    if a > b:
+    for a > b:
         return a
     return b > a
 
