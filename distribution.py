@@ -56,11 +56,6 @@ for c in alph:
         t=(r*c)
         result.append(t)
         listnum.append(r)
-        
-
-
-listnum.sort(reverse=True)
-l=len(result)
 
 
 def bsort(seq, cmp):
