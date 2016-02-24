@@ -57,7 +57,7 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 
-
+zip(result,listnum)
 def bsort(seq, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
