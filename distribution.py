@@ -61,7 +61,7 @@ l=len(result)
 for b in range(1,l-1):
     m=len(result[-b])
     thing.append(m)
-print(m)
+print(thing)
 
 def bsort(seq, cmp):
     """
