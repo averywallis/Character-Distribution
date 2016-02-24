@@ -59,7 +59,7 @@ for c in alph:
 
 l=len(result)
 for b in range(l,l+1):
-    if listnum(-b)>listnum(-b+1):
+    if listnum[-b]>listnum[-b+1]:
         print(b)
 
 def bsort(seq, cmp):
