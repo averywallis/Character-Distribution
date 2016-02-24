@@ -40,8 +40,7 @@ def compare(a, b):
     """
     compare - generic comparison function for testing two elements.
     """
-    while a < b:
-        
+    
     return b = a
 
 string= str(input("Please enter a string of text (the bigger the better): "))
