@@ -58,7 +58,7 @@ for c in alph:
         listnum.append(r)
 
 l=len(result)
-for b in range(l-1,1,-1):
+for b in range(l,1,-1):
     m=len(result[-b])
     thing.append(m)
 print(thing)
