@@ -100,7 +100,7 @@ def bsort(result, listnum):
         sorted = True   # assume it's already sorted correctly
         for index, value in enumerate(result): # for every element in seq
             if index > 0:                   # past the first..
-                if not cmp(result[index-1], value):  # if this element is out of order
+                if not listnum(result[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
                     result[index-1], result[index] = result[index], result[index-1] # and swap it
 
