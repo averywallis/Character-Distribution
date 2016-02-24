@@ -49,7 +49,7 @@ print('The distribution of characters in "'+string1+ '" is:')
 alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
 listnum=[]
-
+thing=[]
 for c in alph:
     r = string.count(c)
     if not r==0:
@@ -60,7 +60,7 @@ for c in alph:
 l=len(result)
 for b in range(l,l+1):
     m=len(result[-l])
-    print(m)
+    thing.append(m)
 
 def bsort(seq, cmp):
     """
