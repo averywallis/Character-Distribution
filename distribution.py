@@ -42,7 +42,7 @@ def compare(a, b):
     """
     while a < b:
         return b > a
-    return b > a
+    return b = a
 
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
