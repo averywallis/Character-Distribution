@@ -89,6 +89,11 @@ for c in alph:
 listnum.sort(reverse=True)
 l=len(result)
 
+def compare(a, b):
+    """
+    compare - generic comparison function for testing two elements.
+    """
+    return b > a
 def bsort(result, listnum):
     """
     bsort - simple sorting algorithm that uses any comparison function
