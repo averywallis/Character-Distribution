@@ -59,7 +59,9 @@ for c in alph:
 
 print(result)
 print(listnum)
-thing=list(zip(listnum, result))
+listnum=list(listnum)
+result=list(result)
+thing=zip(listnum, result)
 result=sorted(thing, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
 
