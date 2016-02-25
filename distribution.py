@@ -61,6 +61,7 @@ l=len(result)
 lists=zip(listnum,result)
 result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
+listnum2, result2=*zip(lists)
 print(result)
 
 '''
