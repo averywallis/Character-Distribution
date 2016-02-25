@@ -66,8 +66,12 @@ for b in range(l+1,1,-1):
 lists=zip(listnum,result)
 
 print(list(lists))
+def compare(a, b):
+    """
+    compare - generic comparison function for testing two elements.
+    """
+    return b > a
 
-"""
 def bsort(seq, cmp):
     '''
     bsort - simple sorting algorithm that uses any comparison function
@@ -83,6 +87,6 @@ def bsort(seq, cmp):
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
-bsort(result, compare)
+bsort(result, compare(listnum,result)
 print(result)
-"""
+
