@@ -60,8 +60,8 @@ l=len(result)
 
 lists=zip(listnum,result)
 result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
-results=result.sort(reverse=True)
-print(results)
+result.sort(reverse=True)
+print(result)
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
