@@ -60,6 +60,7 @@ l=len(result)
 
 
 sorted(result, key=lambda listnum: listnum[0])   # sort by age
+print(result)
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
