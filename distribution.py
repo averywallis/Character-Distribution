@@ -63,7 +63,7 @@ for b in range(l+1,1,-1):
     thing.append(m)
 
 
-lists=zip(listnum.sort(),result)
+lists=zip(listnum,result)
 
 print(list(lists))
 
