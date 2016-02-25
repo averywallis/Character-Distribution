@@ -62,7 +62,7 @@ lists=zip(listnum, result)
 result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
 
-print(result2)
+print(lists)
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
