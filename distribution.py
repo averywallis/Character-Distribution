@@ -57,7 +57,8 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 
-print(lists)
+print(result)
+print(listnum)
 lists=zip(listnum, result)
 result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
