@@ -52,8 +52,7 @@ for c in alph:
         listnum.append(r)
 l=len(result)
 
-lists=zip(listnum,result)
-print(list(lists))
+
 
 listnum=list(listnum)
 result=list(result)
