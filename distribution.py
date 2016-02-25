@@ -62,9 +62,7 @@ for b in range(l+1,1,-1):
     m=len(result[-b+1])
     thing.append(m)
 
-
 lists=zip(listnum,result)
-
 print(list(lists))
 
 def compare(a, b):
@@ -87,6 +85,5 @@ def bsort(seq, cmp):
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
-bsort(result, compare)
-print(result)
-
+bsort(listnum, compare)
+print(listnum)
