@@ -58,7 +58,7 @@ for c in alph:
         listnum.append(r)
 l=len(result)
 
-
+lists=zip(listnum,result)
 result=sorted(result, key=lambda listnum: listnum[0])   # sort by age
 print(result)
 
