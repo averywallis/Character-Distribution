@@ -59,13 +59,14 @@ for c in alph:
 l=len(result)
 
 
-sorted(results, key=lambda listnum: listnum[2])   # sort by age
+sorted(results, key=lambda listnum: listnum[0])   # sort by age
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
 
 lists=zip(listnum,result)
+
 print(list(lists))
 
 def bsort(seq, cmp):
