@@ -57,11 +57,13 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 l=len(result)
-thing1=result.sort(len(result[-1]))
+
 
 sorted(results, key=lambda student: student[2])   # sort by age
 
-'[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]'
+'''
+[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+'''
 
 lists=zip(listnum,result)
 print(list(lists))
