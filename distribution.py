@@ -69,7 +69,7 @@ def compare(a, b):
     """
     compare - generic comparison function for testing two elements.
     """
-    return b > a
+    return len(b) > len(a)
 def bsort(seq, cmp):
     '''
     bsort - simple sorting algorithm that uses any comparison function
