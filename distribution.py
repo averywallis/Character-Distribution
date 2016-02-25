@@ -61,10 +61,10 @@ l=len(result)
 for b in range(l+1,1,-1):
     m=len(result[-b+1])
     thing.append(m)
-print(listnum)
+
 
 lists=zip(listnum,result)
-print(lists)
+print(list(lists))
 """
 def bsort(seq, cmp):
     '''
