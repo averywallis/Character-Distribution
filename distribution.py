@@ -87,6 +87,6 @@ def bsort(seq, cmp):
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
-bsort(result, compare(listnum,result))
+bsort(result, compare(listnum,listnum))
 print(result)
 
