@@ -64,7 +64,7 @@ for b in range(l+1,1,-1):
 
 
 lists=zip(listnum,result)
-lists.sort(key = lambda t: t[1])
+
 print(list(lists))
 
 """
