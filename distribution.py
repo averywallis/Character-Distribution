@@ -59,7 +59,7 @@ for c in alph:
 l=len(result)
 
 
-sorted(results, key=lambda student: student[2])   # sort by age
+sorted(results, key=lambda listnum: listnum[2])   # sort by age
 
 '''
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
