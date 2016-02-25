@@ -36,12 +36,6 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-def compare(a, b):
-    """
-    compare - generic comparison function for testing two elements.
-    """
-    return b > a
-
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
 print('The distribution of characters in "'+string1+ '" is:')
@@ -61,8 +55,8 @@ print(result)
 print(listnum)
 listnum=list(listnum)
 result=list(result)
-thing=zip(listnum,result)
-result=sorted(thing, key=lambda listnum: listnum[0])   # sort by number
+lists=zip(listnum,result)
+result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
 
 print(lists)
