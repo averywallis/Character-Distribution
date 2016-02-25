@@ -60,7 +60,7 @@ for c in alph:
 print(result)
 print(listnum)
 zip(listnum, result)
-result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
+result=sorted(result, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
 
 print(lists)
