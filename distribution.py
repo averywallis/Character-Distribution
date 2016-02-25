@@ -50,16 +50,19 @@ for c in alph:
         t=(r*c)
         result.append(t)
         listnum.append(r)
-l=len(result)
+print(listnum)
+print(result)
 
-sorted(results, key=lambda listnum: listnum[0])   # sort by number
+lists=zip(listnum, result)
+print(list(lists))
+
+sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
 
-lists=zip(listnum,result)
-print(list(lists))
+
 
 def bsort(seq, cmp):
     '''
