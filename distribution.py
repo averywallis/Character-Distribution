@@ -64,6 +64,7 @@ for b in range(l+1,1,-1):
 
 
 lists=zip(listnum,result)
+lists.sort()
 print(list(lists))
 
 """
