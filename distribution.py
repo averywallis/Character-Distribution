@@ -51,11 +51,10 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 
-print(result)
-print(listnum)
-print(lists)
 listnum=list(listnum)
 result=list(result)
+print(result)
+print(listnum)
 lists=zip(listnum,result)
 result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
