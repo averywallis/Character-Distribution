@@ -50,6 +50,7 @@ for c in alph:
         t=(r*c)
         result.append(t)
         listnum.append(r)
+l=len(result)
 
 lists=zip(listnum,result)
 print(list(lists))
