@@ -52,7 +52,7 @@ for c in alph:
         listnum.append(r)
 l=len(result)
 
-sorted(result, key=lambda listnum: listnum[0])   # sort by number
+sorted(results, key=lambda listnum: listnum[0])   # sort by number
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
