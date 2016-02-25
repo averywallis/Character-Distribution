@@ -61,7 +61,7 @@ print(result)
 print(listnum)
 listnum=list(listnum)
 result=list(result)
-thing=zip(listnum, result)
+thing=zip(listnum,result)
 result=sorted(thing, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
 
