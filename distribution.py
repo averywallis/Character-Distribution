@@ -57,10 +57,8 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 
-l=len(result)
-for b in range(l+1,1,-1):
-    m=len(result[-b+1])
-    thing.append(m)
+l=len(result[-1])
+print(l)
 
 lists=zip(listnum,result)
 print(list(lists))
@@ -82,3 +80,4 @@ def bsort(seq, cmp):
 
 bsort(result, compare)
 print(result)
+
