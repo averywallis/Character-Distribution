@@ -67,9 +67,6 @@ print(result)
 https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
 
-
-
-print(list(lists))
 """
 def bsort(seq, cmp):
     '''
