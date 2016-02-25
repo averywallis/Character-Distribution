@@ -52,17 +52,29 @@ for c in alph:
         listnum.append(r)
 l=len(result)
 
-
-
-listnum=list(listnum)
-result=list(result)
-print(result)
-print(listnum)
-
-
-sorted(result, key=lambda listnum: listnum[0])   # sort by number
-result.sort(reverse=True)
+sorted(results, key=lambda listnum: listnum[0])   # sort by age
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
+
+lists=zip(listnum,result)
+print(list(lists))
+
+def bsort(seq, cmp):
+    '''
+    bsort - simple sorting algorithm that uses any comparison function
+    seq - a list to be sorted
+    cmp - a function for comparing two elements of seq
+    '''
+    sorted = False  # assume the seq is not sorted to start with
+    while not sorted:
+        sorted = True   # assume it's already sorted correctly
+        for index, value in enumerate(seq): # for every element in seq
+            if index > 0:                   # past the first..
+                if not cmp(seq[index-1], value):  # if this element is out of order
+                    sorted = False          # then the list is not sorted yet
+                    seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
+
+bsort(result, compare)
+print(result)
