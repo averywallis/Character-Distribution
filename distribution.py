@@ -56,9 +56,8 @@ for c in alph:
         t=(r*c)
         result.append(t)
         listnum.append(r)
-
-l=len(result[-1])
-print(l)
+l=len(result)
+thing1=result.sort(len(result[-l,-1,-1]))
 
 lists=zip(listnum,result)
 print(list(lists))
