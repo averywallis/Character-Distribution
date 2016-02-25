@@ -67,11 +67,11 @@ lists=zip(listnum,result)
 print(lists)
 """
 def bsort(seq, cmp):
-    """
+    '''
     bsort - simple sorting algorithm that uses any comparison function
     seq - a list to be sorted
     cmp - a function for comparing two elements of seq
-    """
+    '''
     sorted = False  # assume the seq is not sorted to start with
     while not sorted:
         sorted = True   # assume it's already sorted correctly
