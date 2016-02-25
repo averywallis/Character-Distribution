@@ -65,8 +65,7 @@ for b in range(l+1,1,-1):
 
 lists=zip(listnum,result)
 print(list(lists))
-lists.sort(listnum)
-print(lists)
+
 """
 def bsort(seq, cmp):
     '''
