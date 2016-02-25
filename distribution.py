@@ -67,7 +67,7 @@ print(result)
 https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
 
-lists=zip(listnum,result)
+
 
 print(list(lists))
 
