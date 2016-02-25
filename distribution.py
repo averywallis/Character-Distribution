@@ -40,7 +40,7 @@ def compare(a, b):
     """
     compare - generic comparison function for testing two elements.
     """
-    return len(b) > len(a)
+    return b > a
 
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
@@ -80,5 +80,5 @@ def bsort(seq, cmp):
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
-bsort(result, compare)
-print(result)
+bsort(lists, compare)
+print(lists)
