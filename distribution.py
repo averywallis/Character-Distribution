@@ -61,7 +61,7 @@ l=len(result)
 for b in range(l+1,1,-1):
     m=len(result[-b+1])
     thing.append(m)
-
+print(result)
 
 lists=zip(listnum,result)
 print(lists)
