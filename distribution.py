@@ -56,6 +56,7 @@ result=list(result)
 print(result)
 print(listnum)
 lists=zip(listnum,result)
+lists=list(lists)
 result=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 result.sort(reverse=True)
 
