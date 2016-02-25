@@ -65,7 +65,7 @@ print(thing)
 
 lists=zip(listnum,result)
 print(lists)
-
+"""
 def bsort(seq, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
@@ -82,8 +82,5 @@ def bsort(seq, cmp):
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
 bsort(result, compare)
-print(result)
-"""
-print(listnum)     
 print(result)
 """
