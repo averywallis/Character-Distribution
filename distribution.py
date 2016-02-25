@@ -63,8 +63,9 @@ for b in range(l+1,1,-1):
     thing.append(m)
 print(thing)
 
-lists=zip(listnum, result)
+lists=zip(listnum,result)
 print(lists)
+
 def bsort(seq, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
