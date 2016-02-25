@@ -62,7 +62,7 @@ l=len(result)
 sorted(results, key=lambda listnum: listnum[2])   # sort by age
 
 '''
-[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
 
 lists=zip(listnum,result)
