@@ -62,8 +62,8 @@ for y in range(0,l-1):
     if len(a[y])==len(a[y+1]):
         a=list([r[1] for r in lists])
         print(a[y])
-    elif len(a[y])==len(a[y+1]):
-        print(a)
+    elif not len(a[y])==len(a[y+1]):
+        print(a[y])
           
 
 
