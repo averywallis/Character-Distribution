@@ -53,6 +53,7 @@ for c in alph:
 
 
 lists=zip(listnum, result)
+print(lists)
 sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 print(lists)
 
