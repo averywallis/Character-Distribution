@@ -57,7 +57,7 @@ print(list(lists))
 lists=sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 lists.sort(reverse=True)
 print(list(lists))
-print([x[1] for x in lists])
+l=len([x[1] for x in lists])
 
 
 
