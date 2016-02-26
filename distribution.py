@@ -60,7 +60,8 @@ l=len([x[1] for x in lists])
 for y in range(0,l-1):
     if not y==y+1:
         a=list([r[1] for r in lists])
-        print(a[2])
+        print(a[y])
+        
 
 
 
