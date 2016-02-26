@@ -65,7 +65,7 @@ for y in range(0,l-1):
         thing=thing.sort()
         print(thing[c])
         c=c+1
-    elif not len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]):
+    elif not len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1] or if not y==len(a):
         print(a[y])
           
 
