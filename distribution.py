@@ -44,6 +44,7 @@ alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
 listnum=[]
 thing=[]
+thin1=[]
 for c in alph:
     r = string.count(c)
     if not r==0:
@@ -61,6 +62,9 @@ a=list([r[1] for r in lists])
 for y in range(0,l-1):
     if len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]):
         c=0
+        d=y
+        if not y==len(a[y+1]) or y==len(a[y-1]):
+            e=thing1.append(a[y])
         b==thing.append(a[y])
         thing=thing.sort()
         print(thing[c])
