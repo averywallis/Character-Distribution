@@ -43,7 +43,7 @@ print('The distribution of characters in "'+string1+ '" is:')
 alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
 listnum=[]
-
+thing=[]
 for c in alph:
     r = string.count(c)
     if not r==0:
@@ -60,7 +60,7 @@ l=len([x[1] for x in lists])
 a=list([r[1] for r in lists])
 for y in range(0,l-1):
     if len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]):
-        b=list([r[y] for r in lists])
+        b=list(thing.append(a[y]))
         print(b)
     elif not len(a[y])==len(a[y+1]):
         print(a[y])
