@@ -63,7 +63,7 @@ https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
 
 
-
+"""
 def bsort(seq, cmp):
     '''
     bsort - simple sorting algorithm that uses any comparison function
@@ -81,7 +81,4 @@ def bsort(seq, cmp):
 
 bsort(result, compare)
 print(result)
-
-'''
-https://docs.python.org/3/howto/sorting.html#sortinghowto
-'''
+"""
