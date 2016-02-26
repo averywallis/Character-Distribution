@@ -54,9 +54,8 @@ print(listnum)
 print(result)
 
 lists=zip(listnum, result)
-
-
 sorted(lists, key=lambda listnum: listnum[0])   # sort by number
+print(lists)
 
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
