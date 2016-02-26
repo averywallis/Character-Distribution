@@ -60,7 +60,7 @@ l=len([x[1] for x in lists])
 a=list([r[1] for r in lists])
 for y in range(0,l-1):
     if len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]):
-        b=a=list([r[y] for r in lists])
+        b=list([r[y] for r in lists])
         print(b)
     elif not len(a[y])==len(a[y+1]):
         print(a[y])
