@@ -64,7 +64,7 @@ for y in range(0,l-1):
         print(a[y])
     elif len(a[y])==len(a[y+1]):
         print(a)
-print(a)            
+          
 
 
 
