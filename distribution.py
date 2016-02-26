@@ -54,7 +54,7 @@ print(listnum)
 print(result)
 
 lists=zip(listnum, result)
-print(list(e))
+
 
 sorted(lists, key=lambda listnum: listnum[0])   # sort by number
 
