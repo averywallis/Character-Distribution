@@ -50,8 +50,7 @@ for c in alph:
         t=(r*c)
         result.append(t)
         listnum.append(r)
-print(listnum)
-print(result)
+
 
 lists=zip(listnum, result)
 sorted(lists, key=lambda listnum: listnum[0])   # sort by number
