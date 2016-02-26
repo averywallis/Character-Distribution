@@ -44,7 +44,7 @@ alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
 listnum=[]
 thing=[]
-thin1=[]
+thing1=[]
 for c in alph:
     r = string.count(c)
     if not r==0:
