@@ -67,7 +67,7 @@ for y in range(0,l-1):
             e=thing1.append(a[y])
             thing1=thing1.sort()
             print(thing1[c])
-        b==thing.append(a[y])
+        d==thing.append(a[y])
         thing=thing.sort()
         print(thing[c])
         c=c+1
