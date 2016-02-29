@@ -56,7 +56,7 @@ lists=zip(listnum, result)
 lists=sorted(lists, key=lambda listnum: (-listnum[0], listnum[1]))   # sort by number
 l=len([x[1] for x in lists])
 for y in rang(0,l):
-    a=list(r[1] for r in lists])
+    a=list([r[1] for r in lists])
     print(a[y])
 
 """
