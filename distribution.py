@@ -52,10 +52,14 @@ for c in alph:
         result.append(t)
         listnum.append(r)
 
-
 lists=zip(listnum, result)
 lists=sorted(lists, key=lambda listnum: (-listnum[0], listnum[1])   # sort by number
 l=len([x[1] for x in lists])
+for y in rang(0,l):
+    a=list(a[1] for r in lists])
+    print(a[y])
+
+"""
 a=list([r[1] for r in lists])
 for y in range(0,l-1):
     if len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]):
@@ -71,7 +75,7 @@ for y in range(0,l-1):
         c=c+1
     elif not len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]) or y==len(a[y]):
         print(a[y])
-          
+"""          
 
 
 
