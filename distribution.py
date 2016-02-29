@@ -59,26 +59,6 @@ for y in range(0,l):
     a=list([r[1] for r in lists])
     print(a[y])
 
-"""
-a=list([r[1] for r in lists])
-for y in range(0,l-1):
-    if len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]):
-        c=0
-        d=y
-        if not y==len(a[y+1]) or y==len(a[y-1]):
-            e=thing1.append(a[y])
-            thing1=thing1.sort()
-            print(thing1[c])
-        d==thing.append(a[y])
-        thing=thing.sort()
-        print(thing[c])
-        c=c+1
-    elif not len(a[y])==len(a[y+1]) or len(a[y])==len(a[y-1]) or y==len(a[y]):
-        print(a[y])
-"""          
-
-
-
 '''
 https://docs.python.org/3/howto/sorting.html#sortinghowto
 '''
