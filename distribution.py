@@ -38,7 +38,7 @@ Notice about this example:
 """
 string= str(input("Please enter a string of text (the bigger the better): "))
 string1=string.lower()
-print('The distribution of characters in "'+string1+ '" is:')
+print('The distribution of characters in "'+string+ '" is:')
 
 alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
