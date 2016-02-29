@@ -43,8 +43,6 @@ print('The distribution of characters in "'+string+ '" is:')
 alph='abcdefghijklmnopqrstuvwxyz'
 result=[]
 listnum=[]
-thing=[]
-thing1=[]
 for c in alph:
     r = string.count(c)
     if not r==0:
